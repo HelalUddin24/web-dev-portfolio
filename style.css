@@ -1,7 +1,5 @@
 
-
-
-.open-sanls-norma {
+.open-sans-normal {
   font-family: "Open Sans", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
@@ -11,6 +9,9 @@
 
 /* shared style */
 
+.secondery-bg{
+    background-color: #FFF8F3;
+}
 .text-primary{
     color:#FD6E0A ;
 }
@@ -26,16 +27,22 @@
     border: none;
     border-radius: 5px;
 }
+.text-center{
+    text-align: center;
+}
 
 /* header style */
+
 .header{
     background-image: url(images/developer.png), url(images/header_bg.png);
     background-repeat: no-repeat;
     background-position: left top, right bottom;
-    margin:38px 0 0 23px ;
+    margin:38px 0 0px 23px ;
 }
 
+
 /* Nav styles */
+
 nav {
     display: flex;
     align-items: center;
@@ -59,7 +66,10 @@ nav ul li a{
     font-weight: 800;
     font-size: 45px;
 }
+
+
 /* banner styles */
+
 .banner{
     display: flex;
     justify-content: space-between;
@@ -70,8 +80,10 @@ nav ul li a{
 }
 .banner-image{
     max-width: 584px;
+    height: 676px;
     margin-right: 38px;
 }
+
 .banner-greetings{
     font-size: 45px;
     font-weight: 600;
@@ -83,4 +95,52 @@ nav ul li a{
 .banner-profile-pic{
     width:584px;
     height: 676px;
+}
+
+
+/* main styles */
+
+main{
+    margin: 0 auto;
+    max-width: 1140px;
+}
+
+
+/* about styles */
+
+.about{
+    border-radius: 10px;
+    padding: 130px 150px;
+    text-align: center;
+    margin-top: 130px;
+}
+
+.about-items{
+    display: flex;
+    justify-content: space-around;
+}
+
+.about-items-area{
+    border: 1px solid #474747;
+    background-color: white;
+}
+.section-title{
+    font-size: 35px;
+    font-weight: bold
+}
+
+.item-title{
+    line-height: 0px;
+    font-size: 20px;
+}
+
+.item-description{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* skill section style */
+
+.skills-container{
+    display: flex;
 }
