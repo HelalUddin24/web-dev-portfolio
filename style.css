@@ -103,7 +103,7 @@ nav ul li a{
 
 /* main styles */
 
-main{
+.main{
     margin: 0 auto;
     max-width: 1140px;
 }
@@ -160,17 +160,97 @@ main{
     line-height: 30px;
 }
 .skill-description{
-    font-size: 25px;
+    font-size: 18px;
 
 }
 .skill{
     background-color: #ffffff;
     border-radius: 5px;
     box-shadow: 0px 6px 50px 0px #d1c6bd;
-    padding: 10px;
+    padding: 30px;
     margin-top: 100px;
 }
 .skill-title{
     font-size: 20px;
     font-weight: bold;
+}
+
+/* resume section style */
+
+.resume{
+    margin-top: 130px;
+}
+.resume hr{
+    margin: 30px 0 ;
+}
+.resumi-title{
+    font-size: 35px;
+    font-weight: bold;
+}
+.resumi-container{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    margin-top: 50px;
+}
+.education-column{
+    width: 50%;
+    margin: 0px;
+}
+.experience-column{
+    width: 50%;
+}
+.education-sub-title, .experience-sub-title{
+    color: #757575;
+    font-size: 20px;
+    font-weight: 700;
+}
+.education-description, .experience-description{
+    color: #757575;
+    padding-right: 70px;
+}
+.education-title, .experience-title{
+    font-size: 30px;
+    font-weight: bold;
+    color: #474747;
+}
+.education-column-title, .experience-column-title{
+    font-size: 30px;
+    font-weight: bold;
+}
+.resume-btn{
+    margin-top: 50px;
+}
+
+/* footer styles */
+
+footer{
+    margin-top: 110px;
+    padding: 130px 230px;
+}
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+}
+.connect-column{
+    width: 50%;
+}
+.message-column{
+    width: 50%;
+   
+}
+.connect-icons{
+    margin-top: 30px;
+}
+.connect-icons img{
+    margin-right: 20px;
+}
+.message-column input{
+    width: 61%;
+    height: 30px;
+    margin-bottom: 10px;
+}
+button{
+    margin-top: 20px;
 }
